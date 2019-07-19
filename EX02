@@ -1,0 +1,50 @@
+input.onButtonPressed(Button.A, function () {
+    a = a + 1
+    if (a > 4) {
+        a = 1
+    }
+    basic.showNumber(a)
+})
+input.onButtonPressed(Button.B, function () {
+    b = a
+    c = c + 1
+    if (c > 2) {
+        c = 1
+    }
+    basic.showNumber(c)
+})
+input.onButtonPressed(Button.AB, function () {
+    d = c
+    if (b = 1) {
+        if (d = 1) {
+            basic.showString("Hello,boy!")
+        } else {
+            basic.showString("Hello,girl!")
+        }
+    } else if (b = 2) {
+        if (d = 1) {
+            basic.showString("Hello,young man!")
+        } else {
+            basic.showString("Hello,young lady!")
+        }
+    } else if (b = 3) {
+        if (d = 1) {
+            basic.showString("Hello,Sir!")
+        } else {
+            basic.showString("Hello,Madam!")
+        }
+    } else if (b = 4) {
+        if (d = 1) {
+            basic.showString("Hello,old man!")
+        } else {
+            basic.showString("Hello,old lady!")
+        }
+    }
+})
+let c = 0
+let a = 0
+let b = 0
+let d = 0
+basic.forever(function () {
+	
+})
